@@ -1,6 +1,4 @@
 <?= $this->extend('layout') ?>
 <?= $this->section('content') ?>
-
-ini produk
-
+  <p>Ini halaman produk</p>
 <?= $this->endSection() ?>

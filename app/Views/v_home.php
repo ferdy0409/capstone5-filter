@@ -1,7 +1,6 @@
-<?= $this->extend('layout') ?>
+ <?= $this->extend('layout') ?>
 <?= $this->section('content') ?>
-
-<!-- Table with stripped rows -->
+ <!-- Table with stripped rows -->
               <table class="table datatable">
                 <thead>
                   <tr>
