@@ -11,7 +11,6 @@ class AuthController extends BaseController
     {
         helper('form');
     }
-
     public function login()
 {
     if ($this->request->getPost()) {
@@ -25,6 +24,8 @@ class AuthController extends BaseController
                 session()->set([
                     'username' => $dataUser['username'],
                     'role' => $dataUser['role'],
+                    'email' => 'april@example.com',
+                    'login_time' => date('Y-m-d H:i:s'),
                     'isLoggedIn' => TRUE
                 ]);
 
